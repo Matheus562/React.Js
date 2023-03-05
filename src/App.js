@@ -6,6 +6,7 @@ function App() {
     <div>
       <HelloWorld />
       <LoremIpsum />
+      <p>lorem</p>
     </div>
   );
 }
