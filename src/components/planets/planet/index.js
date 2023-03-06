@@ -2,15 +2,12 @@ import React, { Fragment } from "react";
 import "../../shared/gray_img/style.css";
 import GrayImg from "../../shared/gray_img/index.js";
 
-const Planet = () => {
+const Planet = (props) => {
   return (
     <div>
-      <h4>Mercúrio</h4>
-      <p>
-        Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o
-        Sol a cada 87,969 dias terrestres.
-      </p>
-      <GrayImg />
+      <h4>{props.name}</h4>
+      <p>{props.description}</p>
+      <GrayImg img_url={props.img_url} />
     </div>
   );
 };
