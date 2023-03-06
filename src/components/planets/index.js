@@ -5,6 +5,7 @@ const Planets = () => {
   return (
     <Fragment>
       <h3>Planet List</h3>
+      <hr />
       <Planet />
     </Fragment>
   );

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
-import "./style.css";
+import "../../shared/gray_img/style.css";
+import GrayImg from "../../shared/gray_img/index.js";
 
 const Planet = () => {
   return (
@@ -9,10 +10,7 @@ const Planet = () => {
         Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o
         Sol a cada 87,969 dias terrestres.
       </p>
-      <img
-        class="gray-img"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg/900px-Mercury_in_color_-_Prockter07-edit1.jpg"
-      ></img>
+      <GrayImg />
     </div>
   );
 };
