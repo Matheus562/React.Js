@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Planet from "./planet";
 
 const showMessage = () => {
-  console.log("Meu primeiro evento");
+  alert("Meu primeiro evento");
 };
 
 const Planets = () => {
