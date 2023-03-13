@@ -5,6 +5,7 @@ class Planets extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      //formato javascript
       planets: [
         {
           name: "Mercúrio",
