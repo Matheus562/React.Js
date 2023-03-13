@@ -5,7 +5,7 @@ import DescriptionWithLink from "../../shared/description_with_link";
 
 const Planet = (props) => {
   const names = ["a", "b", "c", "d"];
-  const satellites = names.map((n) => <li>satélites {n}</li>);
+  const satellites = names.map((n) => <li>satélite {n}</li>);
 
   let title;
   if (props.title_with_underline)
