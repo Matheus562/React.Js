@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "../gray_img/style.css";
 
 const GrayImg = (props) => {
